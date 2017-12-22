@@ -46,12 +46,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Editor\CaptureBaseEditor.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Editor\CaptureEditorWindow.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Editor\CaptureFromCamera360Editor.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Editor\CaptureFromCamera360ODSEditor.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Editor\CaptureFromCameraEditor.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Editor\CaptureFromScreenEditor.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Editor\EditorUtils.cs" />
      <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Add.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_ODSMerge.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Div.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\CubemapToEquirectangular.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Resources\AVProMovieCapture_Plasma.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />

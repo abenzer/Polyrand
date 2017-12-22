@@ -46,6 +46,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Scripts\ScreenCaptureDemo.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Scripts\ScriptCaptureDemo.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Scripts\SurroundCaptureDemo.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Scripts\TextureCaptureDemo.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Scripts\WebcamCaptureDemo.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\CaptureFromCamera.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\CaptureFromCamera360.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\CaptureFromCamera360ODS.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\CaptureFromScreen.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\CaptureFromTexture.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\CaptureGUI.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\MotionBlur.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\MouseCursor.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Components\UnityAudioCapture.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Internal\CaptureBase.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Internal\NativePlugin.cs" />
+     <Compile Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Scripts\Internal\Utils.cs" />
      <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -99,11 +116,16 @@
      <Compile Include="Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Add.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_ODSMerge.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Div.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\CubemapToEquirectangular.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Resources\AVProMovieCapture_Plasma.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
